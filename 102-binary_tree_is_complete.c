@@ -29,7 +29,7 @@ void free_q(link_t *head)
 {
 	link_t *temp_node;
 
-	while (head)
+	while (head != NULL)
 	{
 		temp_node = head->next;
 		free(head);
@@ -82,7 +82,7 @@ void _pop(link_t **head)
 int binary_tree_is_complete(const binary_tree_t *tree)
 {
 	link_t *head, *tail;
-	int flag = 0;
+	unsigned char flag = 0;
 
 	if (tree == NULL)
 	{

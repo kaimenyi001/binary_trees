@@ -93,7 +93,7 @@ void recursion(link_t **head, const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_levelorder - goes through a binary tree using level-order traversal
+ * binary_tree_levelorder - checks a binary tree using level-order traversal
  * @tree: root node
  * @func: function to call
  * Return: Null
